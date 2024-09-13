@@ -2,6 +2,10 @@
     "name": "Hospital Web Application",
     "short_name": "HospitalApp",
     "description": "A comprehensive hospital web app offering services, doctor reservations, and a pharmacy section.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -19,10 +23,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone",
-    "start_url": "/index.html",
     "scope": "/",
     "orientation": "portrait",
     "related_applications": [],
